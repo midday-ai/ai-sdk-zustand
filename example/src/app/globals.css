@@ -47,3 +47,21 @@ body::before {
   background-image: radial-gradient(circle at 2px 2px, #232323 1px, transparent 0);
   background-size: 2.5px 2.5px;
 }
+
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+	@apply w-[5px];
+}
+
+::-webkit-scrollbar-track {
+	@apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-[var(--foreground)]/20;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	@apply bg-[var(--foreground)]/30;
+}
