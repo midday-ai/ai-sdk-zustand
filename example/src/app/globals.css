@@ -51,11 +51,11 @@ body::before {
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-	width: 5px;
+	@apply w-[5px];
 }
 
 ::-webkit-scrollbar-track {
-	background: transparent;
+	@apply bg-transparent;
 }
 
 ::-webkit-scrollbar-thumb {
